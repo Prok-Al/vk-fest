@@ -1,0 +1,2393 @@
+{
+  "data": {
+    "id": "64fef767-be09-45af-8738-d7a033e30a4f",
+    "name": "Прод Питер 2",
+    "status": "active",
+    "isDisabled": false,
+    "cityId": "cff0cbd5-07ea-48f1-af90-d64625a6efe5",
+    "cityName": "Санкт-Петербург",
+    "startsAt": "2026-07-01T00:00:00.000Z",
+    "endsAt": "2026-07-05T00:00:00.000Z",
+    "workStartTime": "11:00",
+    "workEndTime": "22:00",
+    "description": null,
+    "bannerUrl": null,
+    "revision": 12,
+    "publishedAt": "2026-07-03T14:40:00.361Z",
+    "levelsUpdatedAt": "2026-07-03T03:00:24.079Z",
+    "levelsRevision": "cf2857092e725c00aafb8ad12b3efdc558de668f",
+    "levels": [
+      {
+        "id": "9a3aa68d-4bf1-499c-9dd8-4218850ece5c",
+        "name": "Новичок",
+        "tasksThreshold": 0,
+        "rewardCoins": 0,
+        "iconUrl": "https://picsum.photos/seed/vk-fest-moscow-level-1-icon/320/320",
+        "coverUrl": "https://picsum.photos/seed/vk-fest-moscow-level-1-cover/1200/600",
+        "description": "Ты только вошёл в ритм фестиваля и уже собираешь первые очки прогресса.",
+        "sortOrder": 0
+      },
+      {
+        "id": "0d4a9044-5c86-4a6e-9ad0-242ce8ce5e3a",
+        "name": "Исследователь",
+        "tasksThreshold": 8,
+        "rewardCoins": 70,
+        "iconUrl": "https://picsum.photos/seed/vk-fest-moscow-level-2-icon/320/320",
+        "coverUrl": "https://picsum.photos/seed/vk-fest-moscow-level-2-cover/1200/600",
+        "description": "Ты разобрался с механикой квеста и уверенно двигаешься по площадке.",
+        "sortOrder": 1
+      },
+      {
+        "id": "f2ccda8a-7cc5-4f5f-85f8-8e1a31227daf",
+        "name": "Тусовщик",
+        "tasksThreshold": 15,
+        "rewardCoins": 140,
+        "iconUrl": "https://picsum.photos/seed/vk-fest-moscow-level-3-icon/320/320",
+        "coverUrl": "https://picsum.photos/seed/vk-fest-moscow-level-3-cover/1200/600",
+        "description": "Ты уже видишь фестиваль как карту возможностей и не теряешься в маршрутах.",
+        "sortOrder": 2
+      },
+      {
+        "id": "f97b6530-8de4-4a39-bb8a-a6bf7f3e9442",
+        "name": "Фестивальщик",
+        "tasksThreshold": 22,
+        "rewardCoins": 280,
+        "iconUrl": null,
+        "coverUrl": null,
+        "description": null,
+        "sortOrder": 3
+      },
+      {
+        "id": "957ff897-6727-4635-a9e3-0897c4d54dd5",
+        "name": "Легенда",
+        "tasksThreshold": 29,
+        "rewardCoins": 350,
+        "iconUrl": null,
+        "coverUrl": null,
+        "description": null,
+        "sortOrder": 4
+      }
+    ],
+    "tasks": [
+      {
+        "id": "9bc0dfae-2398-40e5-85d3-2f0eead3db8c",
+        "templateId": "f2bbfcdc-016b-4bbe-9f86-a955b33f52c6",
+        "questType": "common",
+        "title": "Музыка наизнанку",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNTA0NDcwNzEtZmRjMy00NjJhLThlYjktNjdhMzBmMTU1NWVhIiwiZSI6MTc4MzcxOTA2Nn0.F6jyVKhIStXqeDFO6Z4ftopnTwyIGnUQVaWt5BgAgVE",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "audio",
+        "latitude": 59.982417,
+        "longitude": 30.203868,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": 3,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "cb2d7165-772c-4d8f-8380-398b175f01da",
+            "text": "Иногда достаточно услышать всего пару секунд, чтобы узнать любимый трек. Но что, если всё перевернуть с ног на голову?\r\n\r\nНейросеть изменила знакомую песню артистки из лайнапа VK Fest: заменила слова на противоположные по смыслу, а также изменила жанр и звучание композиции. Теперь узнать её стало гораздо сложнее.\r\n\r\nВнимательно прослушайте фрагмент, попробуйте определить, какой трек скрывается за необычным исполнением, и впишите название песни в поле ответа.\r\n\r\nФормат ответа: одно слово.",
+            "description": "Подумай, кто из зверей чаще всего ассоциируется с весёлым маскотом.",
+            "hyperLinks": [],
+            "mediaKind": "audio",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stYXVkaW8vMjU1ZDExN2ItOGZlZS00MWNlLWIwMTQtNDFkNDQ1NWUxZGI5IiwiZSI6MTc4MzcxOTA2Nn0.kLlxxCp2sdJJkQSyPMS36ShwghxS0G5L5r44GVQE6co",
+            "answerType": "text",
+            "questionType": "audio",
+            "correctAnswers": [
+              "Матушка",
+              "матушка",
+              "МАТУШКА",
+              "Матушка-земля",
+              "матушка-земля",
+              "матушка земля",
+              "Матушка земля"
+            ],
+            "hintAfterAttempt": 3,
+            "hintText": "Исполняет песню артистка Татьяна Короткова, и название песни напрямую связано с тем, как в народной речи называют маму.",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "6d4ec4f6-386b-48f6-a3a2-4e6a3929f11b",
+        "templateId": "5743adc1-e97e-4eb8-9e00-d6ef3902c072",
+        "questType": "common",
+        "title": "Поиск совпадений",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvOGRlMDI4NmUtYTMyMC00NTgwLTgwZTAtMDg3ODZjZDhjMjU0IiwiZSI6MTc4MzcxOTA2Nn0.v_62-MjcX-cMQYZ0zzXrcbc3Q_YZc0v6_3gbeFLvY1g",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.98313,
+        "longitude": 30.204012,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "c23a2f48-caaa-46e2-a8c8-2eeb3e3c0cde",
+            "text": "На VK Fest вокруг всегда много ярких деталей — всё хочется рассматривать и замечать.\r\n\r\nПеред вами две картинки. На первый взгляд они разные, но среди множества элементов спрятаны совпадающие предметы.\r\nНайдите 3 пары одинаковых предметов и запишите их названия через запятую в алфавитном порядке.\r\n\r\nФормат ответа: три слова, с маленькой буквы, через запятую, без пробелов.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvMGRlODljNTMtZWNmZS00ODA0LWJiZWYtYWY0YTZhZGM4NjY3IiwiZSI6MTc4MzcxOTA2Nn0.oFyvS3SjnaPsZHci177-0Q0AueO-ITYhBE8RgU_GT4E",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "микрофон, мяч, флаг",
+              "микрофон, мячик, флаг",
+              "микрофон, мяч, флажок",
+              "микрофон, мячик, флажок",
+              "микрофон,мяч,флаг",
+              "микрофон,мячик,флаг",
+              "микрофон,мяч,флажок",
+              "микрофон,мячик,флажок"
+            ],
+            "hintAfterAttempt": 3,
+            "hintText": "В ответе нужно указать все 3 слова в алфавитном порядке - с маленькой буквы, в начальной форме. Запишите их через запятую, без пробелов.",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "24d033fa-4175-467f-93f6-38b011eef948",
+        "templateId": "e135ce7d-de39-40df-85e1-a4706879f63c",
+        "questType": "child",
+        "title": "Это хит!",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNmUzYWFhMGItZjMyZS00YTlkLWIwYWItMTQxNjFlMjI1NjViIiwiZSI6MTc4MzcxOTA2Nn0.XIxWjdSrF5utJJR73vU95ciXbJbaRwDtZmWcesmmHX4",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "quiz",
+        "latitude": 59.984499,
+        "longitude": 30.202265,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "da61e5b5-77b2-41b3-8194-9d6bc8c8f8f4",
+            "text": "Обложка альбома — это первое знакомство с музыкой. Иногда одного взгляда достаточно, чтобы понять, кто её автор. У каждого исполнителя свой стиль, и настоящие поклонники узнают его даже без названия альбома.\r\n\r\nПеред вами несколько изображений. Среди них спрятались 2 настоящие обложки альбомов исполнителя Toxi$. Найдите их и выберите правильные варианты ответа.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "multiple",
+            "questionType": "quiz",
+            "correctAnswers": [],
+            "hintAfterAttempt": 5,
+            "hintText": "упс, подсказки нет;)",
+            "sortOrder": 0,
+            "options": [
+              {
+                "id": "7ab3d77b-ca42-420f-adb3-d4f2a4ff007c",
+                "text": "",
+                "mediaKind": "image",
+                "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvMjIyMjNjMTUtODIxNC00ZGE1LWJmMzctYTFmZGM2YzYzMGEwIiwiZSI6MTc4MzcxOTA2Nn0.LXKR1-62ea1O-Rx5QQIQpEBOgTaOI-QcIaoNxgmifj4",
+                "isCorrect": false,
+                "sortOrder": 0
+              },
+              {
+                "id": "3f63ad94-c8de-4ac8-9c5d-d34a79ea4df4",
+                "text": "",
+                "mediaKind": "image",
+                "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvNzk0M2QzMWYtZjFmYi00NWEzLWFmOWQtZmMxMGM0NGFiOWM0IiwiZSI6MTc4MzcxOTA2Nn0.9YwYhidxzh92D1hMWYr-k0NOO635mgfRE6qmO0ta0y4",
+                "isCorrect": true,
+                "sortOrder": 1
+              },
+              {
+                "id": "7d14ca8d-5d6f-4e38-8965-6be9795e8ebe",
+                "text": "",
+                "mediaKind": "image",
+                "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvMmY3Mzg1ZWYtNTZiOS00ZjQyLWFhMjEtMWEwNDI5MDc1MGRjIiwiZSI6MTc4MzcxOTA2Nn0.Lsw0GX3k_W82PbL4r--dD4zVTdbYnGLRQAf4GscExFI",
+                "isCorrect": false,
+                "sortOrder": 2
+              },
+              {
+                "id": "71c83e95-09e0-4953-8ea4-da52fe080917",
+                "text": "",
+                "mediaKind": "image",
+                "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvNzExMDUyNjYtMmNjYS00YjA2LTgyNDYtZDE3NTM4ZGNjZmRjIiwiZSI6MTc4MzcxOTA2Nn0.Uz7cWWHSYii6foizWgQIvjtJbNm4mDZGq2Un6RnXIGA",
+                "isCorrect": false,
+                "sortOrder": 3
+              }
+            ]
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "1ff4999e-4b93-4e25-81fe-a2a7655bb1fb",
+        "templateId": "99e1892e-1b90-4857-b0b4-d7c12d2f93f1",
+        "questType": "child",
+        "title": "По кусочкам",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvZjlhYThjYzEtNGVmOS00NGFlLWIyYzAtM2JkNjVkMzA4NjkzIiwiZSI6MTc4MzcxOTA2Nn0.flX020GzXr13oL73lV1_Xc6SbUGyGmySCNkOKAFtZxY",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.984607,
+        "longitude": 30.201835,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": 8,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "08e2a803-5811-4688-bf03-b0b82dab84f4",
+            "text": "Похоже, эта картинка решила сыграть с вами в прятки и рассыпалась на кусочки. Давайте вернём всё на свои места!\r\n\r\nРасположите части пазла в правильном порядке, прочитайте получившийся вопрос и впишите ответ.\r\n\r\nФормат ответа: одно слово.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvOWViZDkzOTYtYTUxZS00OThiLWEzNGEtNTY1NjZmNTViMjA3IiwiZSI6MTc4MzcxOTA2Nn0.zpz3gvXeu7mp9JeJEkv6UA-byxgszEXwYJSgp9A9eSE",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "синий",
+              "Синий",
+              "СИНИЙ",
+              "Синия",
+              "синяя",
+              "СИНЯЯ"
+            ],
+            "hintAfterAttempt": 7,
+            "hintText": "Самая главная сцена - цвета моря.",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "7e06a075-2725-4322-84af-8e3019793494",
+        "templateId": "a81e913a-baec-4a6c-bdbe-3456733b22ce",
+        "questType": "common",
+        "title": "То самое чувство",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvYWRhOGM1YzctZWUyNC00ZTI5LTljNDgtN2FhZWQ5N2M5NDVkIiwiZSI6MTc4MzcxOTA2Nn0.nFWIDHER_DLfV95nl60bomN-W9RTdXLJG0PSJrpX_iE",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.98289,
+        "longitude": 30.204028,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": 3,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "046cc841-cbfc-4a7c-abe6-6d920fc42b26",
+            "text": "VK Fest — это сотни моментов, которые вызывают самые разные эмоции: от радости встречи с друзьями до восторга от любимой музыки и тёплых воспоминаний, которые хочется сохранить.\r\nПеред вами разные фестивальные ситуации, каждая связана с определённым состоянием или эмоцией. Смотрите не только на сюжет, но и на то, какое чувство он вызывает — иногда оно важнее самого события.\r\n\r\nРасположите ситуации в правильном порядке относительно эмоций и впишите получившуюся последовательность цифр в поле ответа.\r\n\r\nФормат ответа: комбинация цифр без пробелов и запятых.",
+            "description": "Достаточно фамилии.",
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvZDIwZDQzN2QtZjRiNi00ODg3LThlYWUtZWE3ZmY5OTgzNDQyIiwiZSI6MTc4MzcxOTA2Nn0.uvVWKOrFzf1boAADWtZ-6dWMS-Dj3J9BBu_mUeznWhY",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "531465"
+            ],
+            "hintAfterAttempt": 3,
+            "hintText": "Радость мы обычно испытываем, когда наконец получаем что-то долгожданное — например, подарок или приятный сюрприз, а счастье — это ощущение, которое остаётся после того, как ты снова переживаешь самые лучшие моменты.",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "91cfba3b-6184-45f0-b23f-08a02d1698c9",
+        "templateId": "2d37d1f0-ac15-446c-9d2e-5fd6660efeb5",
+        "questType": "child",
+        "title": "Скрытый смысл",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNTJkZTY5ZjItN2RmMS00NzY2LTgxNWItZTYwMzZhZmRjMWU5IiwiZSI6MTc4MzcxOTA2Nn0.vFiuRgYCQtLIu9lfvzVFtdoE3KWDnGxehx0wRUBD29I",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.982651,
+        "longitude": 30.20398,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": 1,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "70abaed9-4b62-4b4a-85f5-bb2195490c07",
+            "text": "Музыка, смех, разговоры, эмоции — кажется, на VK Fest даже воздух наполнен чем-то особенным. Но сегодня среди этого всего затерялось одно важное слово.\r\n\r\nПеред вами облачка и их тени. Найдите правильные пары, соберите слово и запишите его в поле ответа.\r\n\r\nФормат ответа: одно слово.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvNjFmNWNiZjQtZWU2MC00OTJmLWI1ZTYtMmMyMjE2NWFkMTE5IiwiZSI6MTc4MzcxOTA2Nn0.13D_jJDxmjJxjRZYyYh72LV_uGoAyorYT__XSjMw7es",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "легенда",
+              "Легенда",
+              "ЛЕГЕНДА"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": "упс, подсказки нет;)",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "340d1deb-9f0a-4325-a6e4-d54b9b4fdcd0",
+        "templateId": "6b75a717-09e6-4606-87ed-0fbdad143776",
+        "questType": "child",
+        "title": "Звездный вопрос",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNTgzZGEwYTUtYTRkMC00ZDhjLTg4MTEtM2JjOThiOWVhYzllIiwiZSI6MTc4MzcxOTA2Nn0.UMeKFlIBH2qbLkecdPpFsknskAUeQCgejmxjLXAyToI",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "quiz",
+        "latitude": 59.984363,
+        "longitude": 30.202661,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [
+          {
+            "word": "сайте VK Fest",
+            "link": "https://vkfest.ru"
+          }
+        ],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "bf0c12a2-74d5-41a2-aa8a-0f503412fb92",
+            "text": "Некоторые артисты VK Fest  выступают только в одном городе, а некоторые отправляются в настоящее фестивальное путешествие.\r\nОзнакомьтесь с лайнапом на сайте VK Fest и найдите того, кто выступает и в Москве, и в Санкт-Петербурге.\r\n\r\nВыбирайте правильный вариант ответа, получайте монетки за задание и переходите к следующему!",
+            "description": null,
+            "hyperLinks": [
+              {
+                "word": "сайте VK Fest",
+                "link": "https://vkfest.ru"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "single",
+            "questionType": "quiz",
+            "correctAnswers": [],
+            "hintAfterAttempt": 2,
+            "hintText": "упс, подсказки нет;)",
+            "sortOrder": 0,
+            "options": [
+              {
+                "id": "c890bf99-39aa-465d-9e41-48780c53b455",
+                "text": "Клава Кока ",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 0
+              },
+              {
+                "id": "7451b5e8-1ca8-4ff1-881e-01d9ff53bab3",
+                "text": "FEDUK",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 1
+              },
+              {
+                "id": "5de20582-5b4f-4754-a3fc-05d22dff7702",
+                "text": "Дора",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": true,
+                "sortOrder": 2
+              },
+              {
+                "id": "c853bd06-a7c8-4ca8-ba6e-3dee10de3f5b",
+                "text": "MONA",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 3
+              }
+            ]
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "3b58fecd-48b1-4b57-8e0e-8871cab2d9e8",
+        "templateId": "c5d386b7-9031-4d30-a391-d4921c63851b",
+        "questType": "common",
+        "title": "Инсайды VK Fest",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvY2YyNmE4NjYtNzM4OC00NDQ2LWEzYmYtMTQwNDU2NDk0OGFmIiwiZSI6MTc4MzcxOTA2Nn0.dvOBKvVgS8lewig0zj5HG8bRs9A4FToJRCGueqNzuCM",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "quiz",
+        "latitude": 59.984201,
+        "longitude": 30.203018,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "069de007-b185-4236-bf84-51c6d3b52061",
+            "text": "2. Кто из этих артистов выступал на всех VK Fest без исключения?",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "single",
+            "questionType": "quiz",
+            "correctAnswers": [],
+            "hintAfterAttempt": 3,
+            "hintText": "Упс, подсказки нет;)",
+            "sortOrder": 0,
+            "options": [
+              {
+                "id": "dc55ed31-a80d-4bfe-ae3a-b3bd673c88ef",
+                "text": "Ольга Бузова",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": true,
+                "sortOrder": 0
+              },
+              {
+                "id": "b909f58e-1102-449f-8370-5b4d60bae915",
+                "text": "Егор Крид",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 1
+              },
+              {
+                "id": "ad46d112-526f-432d-a8ca-5335215078ab",
+                "text": "Дима Билан",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 2
+              },
+              {
+                "id": "6fa222f8-54ca-4536-8b4c-a5390b06766a",
+                "text": "Полина Гагарина",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 3
+              }
+            ]
+          },
+          {
+            "id": "8a7ec249-d226-4cde-89ff-ed05c13d9db0",
+            "text": "3. В какой зоне проходят автограф-сессии с блогерами на VK Fest 2026?",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "single",
+            "questionType": "quiz",
+            "correctAnswers": [],
+            "hintAfterAttempt": 3,
+            "hintText": "Упс, подсказки нет;)",
+            "sortOrder": 0,
+            "options": [
+              {
+                "id": "03e2d074-f37d-4135-a770-b425fa693259",
+                "text": "VK Музыка",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 0
+              },
+              {
+                "id": "c4d9a77d-64e6-42f7-be56-7d4a0f87feab",
+                "text": "VK Видео",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": true,
+                "sortOrder": 1
+              },
+              {
+                "id": "795e1bb6-9dc5-4d8a-9942-c60faea1f815",
+                "text": "Стенд «Старт квеста»",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 2
+              },
+              {
+                "id": "ecc4e3b0-adfb-4cb3-8619-f25ad7c6ede2",
+                "text": "VK Знакомства",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 3
+              }
+            ]
+          },
+          {
+            "id": "7fe0554a-396c-42c2-ace0-5adaf785504d",
+            "text": "4. В 2025 году VK Fest попал в Книгу рекордов России. За что именно?\r\n",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "single",
+            "questionType": "quiz",
+            "correctAnswers": [],
+            "hintAfterAttempt": 3,
+            "hintText": "Упс, подсказки нет;)",
+            "sortOrder": 0,
+            "options": [
+              {
+                "id": "233ab36c-53a6-480a-b776-2475a8c2bcff",
+                "text": "Самый длинный концерт в истории России",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 0
+              },
+              {
+                "id": "47e7c946-2b36-47f1-8129-452082b16532",
+                "text": "Рекордные продажи мерча за один день",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 1
+              },
+              {
+                "id": "11249aaa-d2b8-46c9-af4c-851930a15a0b",
+                "text": "Самая большая фотобудка в мире",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 2
+              },
+              {
+                "id": "54af79c2-0d6e-460a-a496-e80d0d738d97",
+                "text": "295 исполнителей на одном событии",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": true,
+                "sortOrder": 3
+              }
+            ]
+          },
+          {
+            "id": "ebf76946-e83e-41c0-b783-996a3a93a9e6",
+            "text": "Хотите узнать больше о VK Fest? Тогда вас ждут вопросы о фестивале, его истории, артистах и самых интересных моментах.\r\nПроверьте, насколько хорошо вы знакомы с VK Fest — отвечайте на вопросы и открывайте новые факты о фестивале.\r\n\r\nВозможно, после этого вы сами сможете удивить друзей парочкой неожиданных инсайтов;)\r\n\r\nВажно: на каждый вопрос у вас есть 3 попытки.\r\nПогнали!\r\n\r\n1. В каких городах проходит VK Fest в 2026 году?",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "single",
+            "questionType": "quiz",
+            "correctAnswers": [],
+            "hintAfterAttempt": 3,
+            "hintText": "Упс, подсказки нет;)",
+            "sortOrder": 0,
+            "options": [
+              {
+                "id": "78638398-86ba-4d46-80b4-1e50b1d5a445",
+                "text": "Москва, Санкт-Петербург, Екатеринбург, Сочи",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 0
+              },
+              {
+                "id": "8ecfda94-5947-4c78-b632-5a8ae2299efc",
+                "text": "Москва, Санкт-Петербург, Казань, Краснодар",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 1
+              },
+              {
+                "id": "13e0fa48-b6f2-42fa-8af3-7b5d2b9138d9",
+                "text": "Москва, Санкт-Петербург, Казань, Нижний Новгород",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": true,
+                "sortOrder": 2
+              },
+              {
+                "id": "628024d9-52b3-4b56-a13b-8f6a6cff6007",
+                "text": "Москва, Санкт-Петербург, Самара, Владивосток",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 3
+              }
+            ]
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "4cbf5d77-6b6a-4170-83b1-3b41f56e9192",
+        "templateId": "5ae5c2a3-baea-4930-b285-00e67b4560b1",
+        "questType": "child",
+        "title": "Точное направление",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvZWE5YTBjMjUtNmM2Ni00ZWI3LThmYWYtYmE3YTdlNWU0ZjVjIiwiZSI6MTc4MzcxOTA2Nn0.svyNChamWS7KO_vLB43-MflwUnGmnj8Fi3IGdLVE6vI",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.984018,
+        "longitude": 30.203328,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": 100,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "6676447c-1a6f-475d-8f8c-cbc068b269d8",
+            "text": "На VK Fest легко встретить людей, которые бегут в разные стороны. Но если внимательно посмотреть, иногда именно направление помогает найти то, что вы искали.\r\nВ этой загадке всё работает точно так же.\r\n\r\nПрисмотритесь к цветам человечков и букв, обратите внимание, куда смотрит каждый персонаж, и воспользуйтесь клавиатурой телефона, чтобы расшифровать секретное слово.\r\n\r\nФормат ответа: одно слово.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvZjBmZjhhZGEtNDZiNi00MGZhLWJkYzctMDE4YWRiNjQwYmIxIiwiZSI6MTc4MzcxOTA2Nn0.oTRL0MwZX3u1LhuyyI5jmgNy9olSTNN66wFdy6M6Sck",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "лайк",
+              "ЛАЙК",
+              "Лайк"
+            ],
+            "hintAfterAttempt": 5,
+            "hintText": "Ключ к решению - клавиатура телефоне. А цвет поможет определить, в какую сторону двигаться от каждой буквы.  ",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "59c589e6-b942-406a-87bf-b244d5c2fb09",
+        "templateId": "f4d04856-cab7-4dfd-8f3f-afde7caa6b66",
+        "questType": "child",
+        "title": "Редкий экземпляр ",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNDYyZmYwYjItYmYwMi00OTM5LTk3YjMtYTEyZTI3Y2VjMTc1IiwiZSI6MTc4MzcxOTA2Nn0.yinfn9tegIx_t3RrUaDE8PLJc7lqHRp8yLb6yBxA4rw",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.983815,
+        "longitude": 30.203587,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 15,
+        "hyperLinks": [],
+        "attemptLimit": 100,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "3cfae015-6494-49da-b781-c325b00b4f1b",
+            "text": "На VK Fest всё выглядит как единый поток ярких деталей, но именно в этом потоке можно найти то, что спрятано от первого взгляда.\r\n\r\nПеред вами карточки с набором разных иконок. Среди них есть те, которые встречаются только один раз — именно их нужно найти. После этого, опираясь на ассоциации с найденными символами, составьте название шоу VK Видео.\r\nПолучившееся название впишите в поле для ответа и отправьте на проверку.\r\n\r\nФормат ответа: название шоу.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvODEwMGFhNDktNjEzYy00YWE2LWIwN2MtZWFmN2ZlMTBlMTcxIiwiZSI6MTc4MzcxOTA2Nn0.X5vKJTT46ksW9Qu97UFGbmwdMcE7qIIfSqCOnwlZ5SU",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "Громкий вопрос",
+              "громкий вопрос",
+              "ГРОМКИЙ ВОПРОС",
+              "Громкий Вопрос"
+            ],
+            "hintAfterAttempt": 3,
+            "hintText": "Это шоу, в котором из-за громкой музыки участникам приходится буквально кричать друг другу вопросы.",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "88268ad0-2a99-4f68-9515-0c7bc32f969d",
+        "templateId": "5014cfe0-01e2-4f63-8870-2cd89723a426",
+        "questType": "common",
+        "title": "Старт у входной арки",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNjU1MTUwNDMtZDBlZS00NzEzLWIyOGUtYWI4OGFjY2M5OTNmIiwiZSI6MTc4MzcxOTA2Nn0.v8uoJX5Cna-9bmtSSAtZ6wbZBSX5QcpgIclsplqdhfM",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.98445,
+        "longitude": 30.20375,
+        "model3d": null,
+        "pointWorkStartTime": "10:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T00:00:00.000Z",
+        "closesAt": "2026-07-05T00:00:00.000Z",
+        "isStarter": true,
+        "rewardCoins": 20,
+        "hyperLinks": [],
+        "attemptLimit": 1,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "588027aa-5e2c-4d92-910d-b50354f09f3a",
+            "text": "Сканируй стартовый QR",
+            "description": "Это первое оффлайн-задание большого московского квеста.",
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "MOSCOW-START-2026"
+            ],
+            "hintAfterAttempt": null,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "d89b6404-d5f0-4ce6-8ec5-be6a1decc2cc",
+        "templateId": "433285c8-d66d-4392-80e7-78a3abd1d1e6",
+        "questType": "common",
+        "title": "Ключ к фестивалю",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvYmNlNTUyYzUtN2VjNy00OGFlLTk4NzUtN2Y4YzAxZWExNGU1IiwiZSI6MTc4MzcxOTA2Nn0.sg9z0PoQ-kHRt_ubO3qClDfmeyZQEpsOkQwFA_ZcEr0",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.981981,
+        "longitude": 30.203464,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 25,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "a4ee1425-2f9d-4a00-96ad-52af22a346c7",
+            "text": "Вы почти у цели! Осталось разгадать последний ребус, вписать правильный ответ и забрать свои игровые монетки!\r\n\r\nФормат ответа: одно слово.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvNGQ1OTMyMDktZWUzMi00NGI3LTlhNWYtNzM1MjU1MjNmZjlhIiwiZSI6MTc4MzcxOTA2Nn0.mtFBXc4CeVeBN_mToV6NbE6TRKxwlJp3kpetxJoSp_0",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "Фестиваль",
+              "фестиваль",
+              "ФЕСТИВАЛЬ"
+            ],
+            "hintAfterAttempt": 7,
+            "hintText": "Не забывайте про правила ребусов: запятые помогают убрать лишние буквы, а если одна буква находится внутри другой — это читается как «в». Используйте эти подсказки, чтобы собрать слово целиком.",
+            "sortOrder": 0,
+            "options": []
+          },
+          {
+            "id": "e5923211-eebf-4746-ba4b-9e53335fbc14",
+            "text": "Музыка, сцены, встречи и любимые артисты — всё это создаёт атмосферу VK Fest, без которой невозможно представить фестиваль. А иногда знакомые вещи превращаются в настоящие загадки.\r\n\r\nВ этом задании мы зашифровали для вас три слова с помощью ребусов. Вперед к разгадкам!\r\n\r\nПосмотрите на первую картинку, расшифруйте слово и впишите его в ответ.\r\n\r\nФормат ответа: одно слово.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvOTJhN2M4ZmMtZmQ1Yy00ZWViLWI1NWYtN2FmNzg1Njk2MTZhIiwiZSI6MTc4MzcxOTA2Nn0.2Zz-PG_kD54waV9e0aC-rUUqnKdKAD47h6HfDaRsCIY",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "хит",
+              "ХИТ",
+              "Хит"
+            ],
+            "hintAfterAttempt": 7,
+            "hintText": "Запятые сверху не спроста, они убирают часть букв из слова",
+            "sortOrder": 0,
+            "options": []
+          },
+          {
+            "id": "747fc3c4-a16f-42fe-986f-d329382146b3",
+            "text": "Продолжаем! Расшифруйте второй ребус и впишите слово в ответ.\r\n\r\nФормат ответа: одно слово.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvNGM4MjhhMTEtNTMxZC00Y2YzLWIxNGEtOTU5YzQwZGZlMThmIiwiZSI6MTc4MzcxOTA2Nn0.9mC6RkGK68_CkTQ0wISp7PeucRxAIa3DdHYGK7yYjbM",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "Автограф",
+              "автограф",
+              "АВТОГРАФ"
+            ],
+            "hintAfterAttempt": 7,
+            "hintText": "Как по-другому можно назвать машину? Верно - авто;)",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "18a36de2-4538-4d36-b170-f5c131aed811",
+        "templateId": "3cea8490-94a4-492e-9f38-38f276f2bddf",
+        "questType": "common",
+        "title": "Чей это бэкстейдж?",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvYjZhOGIwZjgtOWIxMy00ODRhLWE5YmMtNjNjMzViYThmM2Q4IiwiZSI6MTc4MzcxOTA2Nn0.RoAskgsG9ofxPenF5bl3QoZ2IAs994n9AKT74dt28oo",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.984686,
+        "longitude": 30.201381,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 25,
+        "hyperLinks": [],
+        "attemptLimit": 3,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "2f60187a-c70c-4c4e-93b5-6d405d1c4835",
+            "text": "Внимательно рассмотрите второе изображение и впишите в ответ название популярного телешоу, участникам которого принадлежит эта гримёрка.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvNjY2N2FhYTEtMDIyZi00ODliLWEyNzItZTFkOGEwMTQ3NDJlIiwiZSI6MTc4MzcxOTA2Nn0.wFQIsWrhrE_ggWEoAdO__wwQy2E9EuQV4erbY-R-Bro",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "Импровизаторы",
+              "импровизаторы",
+              "ИМПРОВИЗАТОРЫ"
+            ],
+            "hintAfterAttempt": 3,
+            "hintText": "В загаданном телешоу без подготовки разыгрывают смешные миниатюры четыре комика",
+            "sortOrder": 0,
+            "options": []
+          },
+          {
+            "id": "dc1d8752-71af-449a-8954-0bbe9d62fd11",
+            "text": "Финальное третье изображение — внимательно изучите его и по деталям определите, кому принадлежит эта гримёрка. Впишите в ответ имя и фамилию артистки.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvYzQ4NWM0YzMtODY2Yy00Y2VlLWE5MzUtM2M2ZDE5ZDBkNDVlIiwiZSI6MTc4MzcxOTA2Nn0.DX0pLux6segq8GwBt9CvkE-WOMO6kU0w7kpixkpngAY",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "Милана Хаметова",
+              "Милана хаметова",
+              "милана Хаметова",
+              "милана хаметова"
+            ],
+            "hintAfterAttempt": 3,
+            "hintText": "Юная российская певица, блогер, модель и актриса, известная треками «Умка», «ЛП» и другими.",
+            "sortOrder": 0,
+            "options": []
+          },
+          {
+            "id": "64441920-f690-4d8e-b090-1ae2af15eab0",
+            "text": "До выхода на сцену у каждого артиста есть своё маленькое закулисье. Где-то лежит любимая кружка, где-то именной блокнот и ручка, а где-то предметы, по которым владельца можно узнать с первого взгляда.\r\n\r\nПеред вами будет 3 изображения с гримёрками участников VK Fest. Попробуйте определить, кому принадлежит каждый бэкстейдж (это могут быть артисты, блогеры или даже участники популярного шоу).\r\n\r\nВнимательно рассмотрите первое изображение и впишите в поле ответа псевдоним артиста, которому принадлежит этот бэкстейдж. ",
+            "description": "Нужен короткий ответ.",
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvZjBjZjU3N2YtMjc0My00YTRjLWI2NjctYWZkYWI5ZjllYjBiIiwiZSI6MTc4MzcxOTA2Nn0.yPr1_9otgLsHMKGwncn5mULovOqwvG5QrZKv-_uMzlU",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "МОТ",
+              "мот",
+              "Мот"
+            ],
+            "hintAfterAttempt": 3,
+            "hintText": " Российский музыкант, который с 2013 по 2022 год был артистом лейбла Black Star Inc. Известен такими треками, как «Капкан», «Август — это ты» и другими",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "60e1881a-ff6d-4d91-8f78-1995268fd5a1",
+        "templateId": "1d0b011c-ff4a-4560-8573-3285e4614d9a",
+        "questType": "common",
+        "title": "В центре событий",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvN2Q4YWFlYTktODY2MC00ZmM4LWFhNmEtYmNlMWYyNzM1MGE3IiwiZSI6MTc4MzcxOTA2Nn0.XrM4xQLZ-JjooriIyM-ywMcRMOGbsPbr_X8TMrgAORM",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "image",
+        "latitude": 59.983367,
+        "longitude": 30.203932,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 25,
+        "hyperLinks": [],
+        "attemptLimit": 100,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "5fa4d4c1-a564-464c-acf8-425a613e36e3",
+            "text": "Кажется, вы уже начинаете замечать то, что обычно ускользает от взгляда других.\r\n\r\nПеред вами фестивальное бинго — поле, где часть фактов ложные, а часть наоборот верные. Ваша задача — внимательно изучить пространство, дойти до Сцены инфлюенсеров и стенда «Старт квеста» и найти те элементы, которые действительно соответствуют описанию.\r\nКогда будете уверены в ответе — впишите номера верных ячеек в поле ответа без пробелов и знаков препинания.\r\nУдачи, исследователь фестиваля! \r\n\r\nФормат ответа: последовательность цифр по возрастанию, без пробелов и запятых.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": "image",
+            "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvOWEzMzRlZTUtMzRjMi00ZWFjLWIxODktNmYzYmM3MWRjNTdkIiwiZSI6MTc4MzcxOTA2Nn0.6zZ-JtAgFqlT2M7E9ckm0bNCLLhPkpUPp1Z6gdsE5xI",
+            "answerType": "text",
+            "questionType": "image",
+            "correctAnswers": [
+              "2379"
+            ],
+            "hintAfterAttempt": 10,
+            "hintText": "Кажется, вы близки к правильному ответу! Попробуйте еще раз",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "9fb1cb05-7cdb-4a6a-a1f6-e243823a926c",
+        "templateId": "2683a0a0-c88d-45a1-87dd-e205e9ff8540",
+        "questType": "child",
+        "title": "Сцена зовет",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvMjY0ZDBkY2ItOTUwNy00NmM0LTg2MzUtYWI5MGUxOTZmMTYzIiwiZSI6MTc4MzcxOTA2Nn0.z7I4UxlPbAWJhv-8ESRbM58UGQKP6zj_zJ2SA0bOywM",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.982192,
+        "longitude": 30.203696,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 35,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "6bd22328-07d1-4215-9895-100902759d6b",
+            "text": "Ни один VK Fest не обходится без главного — сцен, живой музыки и тысяч людей, которые собираются вместе ради любимых артистов. Самое время почувствовать эту атмосферу фестиваля по-настоящему!\r\n\r\nЧто нужно сделать:\r\n\r\n1. Подойдите к любой сцене VK Fest\r\n2. Сделайте фотографию на её фоне\r\n3. Опубликуйте ее в истории ВКонтакте с хештегом #КвестVKFest \r\n4. Покажите историю модератору в розовой футболке на стенде \"Старт квеста\"\r\n\r\nИ не забудьте отсканировать QR-код, чтобы задание считалось выполненным!\"",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "4dcbf9ee-eb17-4336-af54-8f5ebf6cb564",
+        "templateId": "f8fc569b-ae09-428d-b879-22ee4e3d26f1",
+        "questType": "common",
+        "title": "VK Видео - ориентир в мире контента",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvN2I1MDc2MTItMmVkYS00MmU3LWFlYmEtYWY0ZTM3ZGU2N2ZjIiwiZSI6MTc4MzcxOTA2Nn0.YgQFG0dukkmb0JRoieWGs42MUJXTkcmGp-qfsMu8gs4",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "text",
+        "latitude": 59.981666,
+        "longitude": 30.202317,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 40,
+        "hyperLinks": [
+          {
+            "word": "ссылке",
+            "link": "https://disk.yandex.ru/d/r1OMgEVx-g3WIw"
+          }
+        ],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "d79f5243-342c-4f08-a4aa-cb4638ab6602",
+            "text": "VK Видео — место, где каждый может найти контент по душе и посмотреть на мир с самых разных ракурсов. А сейчас предлагаем взглянуть на VK Fest глазами нашего маскота! \r\n\r\nОн спрятал для вас послание — кодовое слово. Найдите его, чтобы выполнить задание.\r\n\r\nИзучите фотографию по ссылке, сделанную от первого лица, и попробуйте определить, где находится маскот. Затем отправьтесь на локацию, отыщите спрятанное слово и впишите ответ в поле ниже.\r\n\r\nЕсли слово окажется правильным, задание будет выполнено.\r\nУдачи в поисках!\r\n\r\nФормат ответа: одно слово.",
+            "description": null,
+            "hyperLinks": [
+              {
+                "word": "ссылке",
+                "link": "https://disk.yandex.ru/d/r1OMgEVx-g3WIw"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "text",
+            "questionType": "text",
+            "correctAnswers": [
+              "тренд",
+              "ТРЕНД",
+              "Тренд"
+            ],
+            "hintAfterAttempt": 5,
+            "hintText": "Слово прячется на ручке Глазика на зоне VK Видео",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "62f35ce3-4493-46b0-9551-8e3ba42b0e12",
+        "templateId": "a032bea9-4a98-476a-8232-617892965445",
+        "questType": "common",
+        "title": "Шпаргалка для родителей от Учи.ру",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvMGE2MGZjMzItYzYzOS00MzllLWFiNDAtZWMyNzRiNmYxMmIwIiwiZSI6MTc4MzcxOTA2Nn0.4ZjEpoPmjbQlYX9kX0zTcwwl1B2eTTY-KsDtwslXAEQ",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.982953,
+        "longitude": 30.200431,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 45,
+        "hyperLinks": [
+          {
+            "word": "ссылке",
+            "link": "https://max.ru/uchiparents_bot?start=vkfest_2026"
+          }
+        ],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "b79065ad-3d19-4888-b9d2-7a3f8c353871",
+            "text": "Мини-приложение Учи.ру предлагает родителям удобные инструменты для сопровождения учебы ребенка, помогая сократить рутину и уменьшить тревогу за его успеваемость. Авторизуйтесь в мини-приложении и получите скидку на платформу Учи.ру!\r\n\r\nЧто нужно сделать:\r\n1. Перейдите по ссылке в чат-бот мессенджера MAX.\r\n2. Авторизуйтесь в мини-приложении Учи.ру для родителей.\r\n3. Получите скидку на пакет «Все на Учи.ру» — подписку, которая отрывает доступ ко всем образовательным курсам и тренажерам платформы Учи.ру для школьников 1-11 классов.\r\n\r\nЗадание выполнено! Покажите чат-бот Учи.ру на экране своего смартфона промоутеру в розовой футболке на стенде \"Старт квеста\", отсканируйте QR-код, заберите монетки и тратьте их на мерч.",
+            "description": null,
+            "hyperLinks": [
+              {
+                "word": "ссылке",
+                "link": "https://max.ru/uchiparents_bot?start=vkfest_2026"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "9b43d4dc-7ec6-4294-b806-379ac99c1ad8",
+        "templateId": "51d31268-877f-487e-8f9b-4430b816c7a7",
+        "questType": "common",
+        "title": "Будьте в теме с Дзеном",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNjYxZmRjZGItYmExMC00NGYyLTgwMDctNzAwMDJiMGVkNWFiIiwiZSI6MTc4MzcxOTA2Nn0.Jg1DoWxwlnuQ8KBYxgZlUkZtroO5FZJH3I0ROdNWhs8",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.982953,
+        "longitude": 30.200431,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 45,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "6f296323-8d3c-46ee-86a2-b6a2fad6e044",
+            "text": "В Дзене всегда можно быть в курсе того, что действительно интересно.\r\nПодпишитесь на канал VK Fest, чтобы не пропустить самые яркие новости, анонсы и материалы фестиваля! ✨\r\n\r\nПерейдите на тематический канал VK Fest в [Дзене|   https://dzen.ru/topic/vk-fest] и нажмите кнопку «Следить за темой».\r\nПосле этого покажите промоутеру в розовой футболке на стенде «Старт квеста» экран с активной подпиской, отсканируйте QR-код и получайте свои заслуженные монетки!",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "162af472-a9a5-4883-a572-1754252e942c",
+        "templateId": "d5c8d593-d729-4a5a-8e0b-32c9268e2e21",
+        "questType": "common",
+        "title": "Музыкальный кадр",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvMzQ2MDBkNzEtN2FlMC00Yjk2LTg0ZTktMWY4ZWVlZDQzZjA3IiwiZSI6MTc4MzcxOTA2Nn0._NANusdVQknrBo2xB9MTN41FdXN4q3gGlTtDRgreJQw",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.983489,
+        "longitude": 30.194167,
+        "model3d": {
+          "id": "fd630c79-c3c5-4575-b5fc-047fdb5f7a40",
+          "name": "тест квеста 2",
+          "category": "quest_task",
+          "url": "https://bucket-vkfest.storage.yandexcloud.net/three-d-asset/fd630c79-c3c5-4575-b5fc-047fdb5f7a40/8f7febc7-8886-47d3-b1b6-10a1847df470.glb",
+          "mime": "model/gltf-binary",
+          "rotateDeg": 0,
+          "scale": 0.45
+        },
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 45,
+        "hyperLinks": [
+          {
+            "word": "VK Музыка",
+            "link": "https://vk.com/vkmusic"
+          }
+        ],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "57f5d0e0-78a6-41ec-9b9a-6192f2ae8cfc",
+            "text": "VK Музыка — это миллионы треков, ваша коллекция давно любимых хитов и бесконечный поток российских и иностранных новинок. Ищите новую музыку с помощью VK Микс — система рекомендаций моментально подстраивается под ваши вкусы и не повторяясь предлагает треки, которые понравятся именно вам. Загляните в зону VK Музыки на VK Fest, сделайте памятное фото в зеркало и выполните задание.\r\n\r\nЧто нужно сделать:\r\n1) Подпишитесь на сообщество VK Музыка ВКонтакте\r\n2) Сделайте фотографию в зеркало на стенде VK Музыки\r\n3) Покажите фото и подписку промоутеру в розовой футболке, отсканируйте QR-код и забирайте свои монетки за задание!",
+            "description": null,
+            "hyperLinks": [
+              {
+                "word": "VK Музыка",
+                "link": "https://vk.com/vkmusic"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "b708034a-59d2-42b2-9231-3e2d9e8ff883",
+        "templateId": "ce02c9f7-3641-42d5-9156-4eb4433eceac",
+        "questType": "common",
+        "title": "Лето в каждом @блаке",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNGFmNzhjODYtMTgxMC00MjM2LThhMzItNjZkMzAyYjJhODBlIiwiZSI6MTc4MzcxOTA2Nn0.bk1JwHRXQ-Dn-7HI75tA1w7DTewZaX7LZLg0FYg0_aA",
+        "mode": "offline",
+        "isPartner": true,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.982953,
+        "longitude": 30.200431,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 45,
+        "hyperLinks": [
+          {
+            "word": "ссылке",
+            "link": "https://trk.mail.ru/c/ysnxo4"
+          }
+        ],
+        "attemptLimit": 1,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "92bedb32-5e90-4fa2-83d2-1bfdcb40234c",
+            "text": "Проверьте, сколько раз вы попадёте в кадр с Облаком Mail!\r\nКаждый кадр, как и это лето — про вас!\r\n\r\nЧто нужно сделать:\r\n\r\n1. Загляните в фотозону Облака и поймайте в ней фотографа — он классно вас сфоткает\r\n2. После этого перейдите по ссылке и сделайте селфи прямо в приложении Облака\r\n3. Осталось чуть-чуть — покажите промоутеру в розовой футболке папку в Облаке, которая появится сразу после селфи. В ней появятся все фото с вами с фестиваля!\r\n \r\nИ последнее от нас — пришлём вам подарок: 512 ГБ для всех летних, тёплых, нежных, загадочных твоих фото!",
+            "description": "QR выдаёт модератор после короткого взаимодействия.",
+            "hyperLinks": [
+              {
+                "word": "ссылке",
+                "link": "https://trk.mail.ru/c/ysnxo4"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": "упс, подсказки нет;)",
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "69866571-92f7-41f8-8e84-17f5e1157b4b",
+        "templateId": "8bba64a9-53b3-4284-829e-df12e2ab334d",
+        "questType": "common",
+        "title": "Откройте Азию через косплей и K-Pop",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvMTQzODEyMTgtMzUyZS00YWZhLWJiMGQtOTkwODRlOTdiYTlmIiwiZSI6MTc4MzcxOTA2Nn0.B-AhZi2k4qw1hTOVJWUlw59DkDbrgT8h-2YfPLE_LRw",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.984863,
+        "longitude": 30.193549,
+        "model3d": {
+          "id": "2b56dcb7-a80f-4f03-a447-75b9e471e9b1",
+          "name": "тест квеста",
+          "category": "quest_task",
+          "url": "https://bucket-vkfest.storage.yandexcloud.net/three-d-asset/2b56dcb7-a80f-4f03-a447-75b9e471e9b1/7dc931ac-8317-4ecd-be28-c481cda8f6d8.jpg",
+          "mime": "image/jpeg",
+          "rotateDeg": 182,
+          "scale": 0.05
+        },
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "e3c42084-43d5-43ef-a79b-4530dc18d4b0",
+            "text": "Яркие костюмы, любимые персонажи и атмосфера азиатской поп-культуры — всё это ждёт вас в зоне Косплей х VK ADF. \r\n\r\nСфотографируйтесь с любым косплеером в зоне Косплей х VK ADF и опубликуйте фотографию на своей странице ВКонтакте с ответом на вопрос:\r\n«Какой опыт знакомства с Азией был у вас самым ярким и почему?»\r\n\r\nНе забудьте показать публикацию промоутеру в розовой футболке и отсканировать QR-код, чтобы задание считалось выполненным!",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "c9d19aa8-0441-43dc-87e5-0406fe0c264c",
+        "templateId": "5fe315b0-7385-4be0-be88-c139656412c4",
+        "questType": "common",
+        "title": "В поисках контента",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvMWNmMGM0ZTYtNDcyNC00ZWU2LThmY2ItYmJlNDE3ZWNlMzY1IiwiZSI6MTc4MzcxOTA2Nn0.eIBUoRyeGP_bLUKSfj6xm-s6x8IuKNx57NYmoMqHcqk",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.983581,
+        "longitude": 30.196794,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [],
+        "attemptLimit": 1,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "90709b09-1d3a-487a-a46e-c05f6d172b7d",
+            "text": "Кажется, лучший контент сам находит своих героев. Но любой, кто хоть раз был на VK Fest, знает: самые яркие моменты ещё нужно успеть поймать.\r\n\r\nГотовы испытать свою внимательность и собрать именно то, что нужно? Тогда вперёд!\r\n\r\nТочка уже ждёт вас на карте!\r\n\r\nУже прошли задание?\r\nОтсканируйте QR-код у модератора в розовой футболке.",
+            "description": "После этого задания взрослый маршрут считается полностью открытым.",
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "MOSCOW-FINAL-QR-3"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "5c35405c-ce7b-4f1f-a8e7-b3d9a76a541d",
+        "templateId": "063e3468-29fe-4803-a593-94e6d8ebcac4",
+        "questType": "common",
+        "title": "В мире RuStore",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvZWE5NmMwMjUtY2Q2Ni00YWI3LTlhOWMtODZkMWE2YTg4ZTY3IiwiZSI6MTc4MzcxOTA2Nn0.6GvZqWXtAyc316cH9Bz07jtT2TSL6wvF3ugByPalLTU",
+        "mode": "online",
+        "isPartner": false,
+        "isRuStorePromo": true,
+        "format": "quiz",
+        "latitude": 59.983597,
+        "longitude": 30.203789,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T22:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [
+          {
+            "word": "RuStore",
+            "link": "https://www.rustore.ru"
+          }
+        ],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "14a2417a-3984-43d4-866a-8cf9ca4b8da4",
+            "text": "2. Каких игр нет в RuStore?\r\nВ списке спрятались 3 реальные игры из RuStore и 3 выдуманные. Найдите самозванцев!",
+            "description": null,
+            "hyperLinks": [
+              {
+                "word": "RuStore",
+                "link": "https://www.rustore.ru"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "multiple",
+            "questionType": "quiz",
+            "correctAnswers": [],
+            "hintAfterAttempt": 1,
+            "hintText": "\"Последний сырок\" действительно есть в RuStore",
+            "sortOrder": 0,
+            "options": [
+              {
+                "id": "2085b2f3-5bd8-4a66-9b0c-66833b353d4d",
+                "text": "Симулятор помидора",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 0
+              },
+              {
+                "id": "937f4365-6ceb-4050-96aa-d13559446c48",
+                "text": "Последний сырок",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": true,
+                "sortOrder": 1
+              },
+              {
+                "id": "609bd9da-7cb4-4b0f-ab38-d94a9b21b7b0",
+                "text": "5 ночей у Лизы Барбоскиной",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 2
+              },
+              {
+                "id": "1f2fb14e-eeba-4f7c-a539-2287b81566c6",
+                "text": "Кликер пельменя",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": false,
+                "sortOrder": 3
+              },
+              {
+                "id": "53789f24-8eb5-4560-8e22-a78672b73420",
+                "text": "Побег из пакета с пакетами",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": true,
+                "sortOrder": 4
+              },
+              {
+                "id": "5d477954-6ea2-41c5-b517-5c5e86fc49c9",
+                "text": "Симулятор ожидания курьера ",
+                "mediaKind": null,
+                "mediaUrl": null,
+                "isCorrect": true,
+                "sortOrder": 5
+              }
+            ]
+          },
+          {
+            "id": "931ca85f-c18a-4747-8385-f8c31d7f9cb0",
+            "text": "[Для прохождения задания необходимо стабильное интернет-соединение]\r\n\r\nRuStore — это не только магазин приложений, но и место, где собрано множество игр, сервисов и полезного контента. Проверим, насколько хорошо вы с ними знакомы с RuStore? 🎮\r\n\r\nВас ждут два вопроса. Внимательно прочитайте каждый из них и выберите правильный ответ.\r\n\r\nНа каждый вопрос даётся 3 попытки. Когда вы ответите правильно на оба вопроса, задание будет выполнено, а вы получите заслуженные монеты и подарок!\r\n\r\n1. У RuStore есть свой маскот — Айс. На какой картинке он изображён?",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "single",
+            "questionType": "quiz",
+            "correctAnswers": [],
+            "hintAfterAttempt": 2,
+            "hintText": "Ищите самого северного героя!",
+            "sortOrder": 0,
+            "options": [
+              {
+                "id": "23c9b509-aa3c-4195-8e32-d192b704b353",
+                "text": "",
+                "mediaKind": "image",
+                "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvNjJhZjJiYzQtZTE0MC00M2YxLWE1MDEtNjYzMmFiNzQ2MzAxIiwiZSI6MTc4MzcxOTA2Nn0.qo-2rRbExsToBMl2rrSk85de1PRwXGgW_90Q2ahQmac",
+                "isCorrect": false,
+                "sortOrder": 0
+              },
+              {
+                "id": "3898c61f-32a1-469f-8b7a-9e643f35ebdc",
+                "text": "",
+                "mediaKind": "image",
+                "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvNTMyMjIyYTQtMzE4ZC00ZDk5LWFhMGYtMzdhY2NmNzY4Mzk1IiwiZSI6MTc4MzcxOTA2Nn0.0gdZNj3KkBCvt7DX6lEbFcCRdP2TUZ8vVaMGeZOGobg",
+                "isCorrect": false,
+                "sortOrder": 1
+              },
+              {
+                "id": "9969aa16-6211-4614-8568-aab27b141f22",
+                "text": "",
+                "mediaKind": "image",
+                "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvZGI3ZDRlMzktZmRjNi00MDYxLWEzN2MtMTYyYzlmYmM1MGRkIiwiZSI6MTc4MzcxOTA2Nn0.n4kFA07UkeSROgud9triSK_JFRjxtu6b2OhMhhU-abA",
+                "isCorrect": true,
+                "sortOrder": 2
+              },
+              {
+                "id": "a68d4246-1933-4fb3-aed9-95672fdda76d",
+                "text": "",
+                "mediaKind": "image",
+                "mediaUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2staW1hZ2UvYzlmM2I3YWMtYzUyZC00NmIyLWFiYjUtNjRlYjYwZTkzZWQzIiwiZSI6MTc4MzcxOTA2Nn0.cHCsEtN3BlJkaXeAw0l8GhxXIMrrKnKidNFx9aruIyk",
+                "isCorrect": false,
+                "sortOrder": 3
+              }
+            ]
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "d1f06a67-6170-46e7-8e36-a6d131840211",
+        "templateId": "52794921-56b4-4277-bee2-b46b518ed439",
+        "questType": "common",
+        "title": "Настроение на максимум",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvN2MyMWMzMDQtNTQyNi00NzI3LTlmNGEtYjcyYTg4ZDE1ZGQ0IiwiZSI6MTc4MzcxOTA2Nn0.fvVdjqoZb7VH7IyGNOAOL0n0HBQNTHJXOBsgYv6ffeI",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.983668,
+        "longitude": 30.193642,
+        "model3d": {
+          "id": "447ad941-61d5-41db-882e-e034b2e15a97",
+          "name": "цветочек",
+          "category": "quest_task",
+          "url": "https://bucket-vkfest.storage.yandexcloud.net/three-d-asset/447ad941-61d5-41db-882e-e034b2e15a97/18a557cd-16b7-481a-948a-c41b381e51e9.jpg",
+          "mime": "image/jpeg",
+          "rotateDeg": 115,
+          "scale": 0.05
+        },
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "799eca74-0c79-40c5-b76d-93e9088875dd",
+            "text": "В зоне MAX вас ждёт «Настроение на максимум» — большая игра, в которой каждый сможет помочь Мишке раскачать энергию фестиваля. Присоединяйтесь и заряжайтесь фестивальным настроением вместе с MAX! ⚡️\r\n\r\nЗагляните в зону MAX, примите участие в игре, а затем отсканируйте QR-код у промоутера в розовой футболке рядом с игровым автоматом.\r\nПосле этого задание будет выполнено, а вы получите игровые монеты!",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "8e01d747-48d8-4539-b1ac-a4374f3f9b3c",
+        "templateId": "01d42a79-d8d5-4767-aa41-e0fa3b6800d1",
+        "questType": "common",
+        "title": "ОК на VK Fest",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvMDAxYmVjNjgtM2QxNi00NzcxLTk1MzktZTNkZmY5NmM4MTc3IiwiZSI6MTc4MzcxOTA2Nn0.8Nm4ZU7KCtE_fso_Opi0LyxT04XZGGCNwcIQMl9fFQU",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.982953,
+        "longitude": 30.200431,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [
+          {
+            "word": "Одноклассниках",
+            "link": "https://ok.ru"
+          }
+        ],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "d0ea4b52-dc93-46b2-8e0b-efeef24eae10",
+            "text": "Одноклассники — первая социальная сеть в России. Здесь люди дружат, создают семьи, делятся важными моментами жизни и остаются на связи с близкими. Сегодня вы тоже станете частью яркого события — сохраните этот момент и поделитесь им в Одноклассниках! 📸\r\n\r\nПодойдите к стенду \"Старт квеста\", найдите промоутера в розовой футболке с фирменной морковкой и сделайте с ней креативную фотографию!\r\n\r\nОпубликуйте фотографию на своей странице в Одноклассниках с хештегом #ОКнаVKFest, покажите публикацию промоутеру в розовой футболке — и задание будет выполнено. За самое креативное фото вас ждёт специальный подарок!",
+            "description": null,
+            "hyperLinks": [
+              {
+                "word": "Одноклассниках",
+                "link": "https://ok.ru"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "f6740da9-08ab-48c0-965e-697b9a570338",
+        "templateId": "bb5c0d84-6d0c-4237-8a62-d76be7e3751b",
+        "questType": "common",
+        "title": "В ритме фестиваля",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNzc3ZWM5MGEtOGFmZS00NDZlLTgxMzItM2MzYWU1NzIzOWI5IiwiZSI6MTc4MzcxOTA2Nn0.NuWQe0BEIIXuSe78Gxd7rlszC_igqX4fE1QjXY9MTow",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.984416,
+        "longitude": 30.196211,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [],
+        "attemptLimit": 1,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "27223380-a0ef-4893-8835-5609b6ca4dce",
+            "text": "Есть моменты, когда тысячи людей одновременно начинают подпевать любимую песню, хлопать в такт или поднимать руки вверх. Именно из таких мгновений рождается атмосфера VK Fest.\r\n\r\nТеперь ваша очередь почувствовать этот ритм. Внимательно следите за последовательностью жестов, повторяйте её без ошибок и докажите, что вы умеете держать темп;)\r\n\r\nТочка уже ждёт Вас на карте!\r\n\r\nУже прошли задание?\r\nОтсканируйте QR-код у модератора в розовой футболке.",
+            "description": "Код размещён рядом с лимитированной коллекцией.",
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "MOSCOW-FINAL-QR-5"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "2ba64555-1a1b-4015-840a-6e2e0d7d528c",
+        "templateId": "f06cf0ef-c406-46e8-95b1-89e5a311bfd5",
+        "questType": "common",
+        "title": "Собери свое настроение",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvMGFhODVkZmUtNWYxZi00ZmVlLWFkYjItN2EwZTMwZmFlNjZlIiwiZSI6MTc4MzcxOTA2Nn0.GtiwEP7aOWMX5YmT_y8R9VkDA1ravzCB1pAJWmlFIuY",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.983574,
+        "longitude": 30.199549,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [],
+        "attemptLimit": 1,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "719e8c96-0551-4f5d-8b3d-18c69eab99bb",
+            "text": "На VK Fest у каждого свой способ провести идеальный день — кто-то идёт за музыкой, кто-то за эмоциями, а кто-то за игрой и активностями.\r\n\r\nВ нашем задании, как и на фестивале, важно не только выбрать свой ход, но и почувствовать момент: увидеть возможности, вовремя реагировать на происходящее и оставаться в ритме игры.\r\nСоберите свою комбинацию из пяти символов быстрее остальных. Думайте на шаг вперёд, следите за ходом игры и успех не заставит себя ждать!\r\n\r\nТочка уже ждёт вас на карте!\r\n\r\nУже прошли задание?\r\nОтсканируйте QR-код у модератора в розовой футболке.",
+            "description": "Ищи табличку со значком квеста.",
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "MOSCOW-FINAL-QR-4"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "d70b9fde-7bba-4b3d-9db9-c441f7b58f11",
+        "templateId": "e8e1828f-4e6c-4498-a96e-f138ca960a9c",
+        "questType": "common",
+        "title": "Смена кадра",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvZmUzMGE3NTEtOThiZi00ODFlLWI3NDUtZTgwNjI0NjBlNjkxIiwiZSI6MTc4MzcxOTA2Nn0.cW0pk7_VdhHEctMiH06ag_XHRTNJkehPe4rVLGWr_Og",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.982536,
+        "longitude": 30.195771,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "e23f9d83-b28d-45b5-af18-c3562d278987",
+            "text": "VK Fest - это всегда про музыку, движение и смену обстановки: только что вы танцевали у одной сцены, а уже через минуту бежите на встречу с любимым артистом или блогером. Главное — успевать ловить момент!\r\n\r\nПроверьте на нашем задании, насколько быстро вы умеете реагировать, принимать решения и оставаться в игре, даже когда темп становится всё быстрее.\r\n\r\nТочка уже ждёт вас на карте!\r\n\r\nУже прошли задание?\r\nОтсканируйте QR-код у модератора в розовой футболке.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "MOSCOW-FINAL-QR-2"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "be4671ad-2cff-436a-a8f7-9b6164958d30",
+        "templateId": "ca407314-7360-4825-b8cf-a2930a151d47",
+        "questType": "common",
+        "title": "На одной волне",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvNTAyNzI0MzMtNTcwZS00OWRjLTg3MjMtOTJiNDg1YjViODg0IiwiZSI6MTc4MzcxOTA2Nn0.6SLQrzGTKDvx4iWmPR673xLTIEZed1HSrr5EQ6Eo2N4",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.982838,
+        "longitude": 30.200342,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [],
+        "attemptLimit": 1,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "554644b8-c739-493d-8d46-0a4aeca84748",
+            "text": "Говорят, на VK Fest легко найти людей, с которыми вы окажетесь на одной волне. Но иногда, чтобы это произошло, нужно научиться чувствовать друг друга без слов и действовать сообща.\r\n\r\nСможете стать настоящей командой, сохранить баланс и дойти до конца вместе? Самое время проверить!\r\n\r\nТочка уже ждёт вас на карте!\r\n\r\nУже прошли задание?\r\nОтсканируйте QR-код у модератора в розовой футболке.",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "MOSCOW-FINAL-QR-1"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "ac627dd4-d318-4030-a68c-b5cdb1250c51",
+        "templateId": "01aa02d1-4220-4096-bf56-d5f037fb082c",
+        "questType": "common",
+        "title": "Время для знакомств!",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvYjlhMjAxMGUtYWU2MS00YTMzLTlmOTctOGFhMDhiNjc5MTFmIiwiZSI6MTc4MzcxOTA2Nn0.y1JdwBIFbN8Zx1CYtZhfQ6ig9HDNdTJemXk8aftUe4k",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.983414,
+        "longitude": 30.195115,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 50,
+        "hyperLinks": [],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "af781359-52e8-42eb-b6dc-c8ca418f220a",
+            "text": "VK Fest — это место, где можно встретить людей с такими же интересами, хобби и любимыми артистами.\r\nЗагляните на стенд VK Знакомств, сделайте фестивальное фото и расскажите о нём друзьям. Возможно, именно этот кадр станет началом нового знакомства.\r\n\r\nЧто нужно сделать:\r\n1. Подпишитесь на сообщество VK+https://vk.com/vkdating Знакомства+https://vk.com/vkdating\r\n2. Найдите зону VK Знакомств\r\n3. Сделайте фото \r\n4. Опубликуй его на своей странице ВКонтакте с отметкой сообщества VK Знакомства\r\n\r\nДля завершения задания покажите пост с публикацией промоутеру в розовой футболке и отсканируйте QR- код.\r\nНе забудьте улыбнуться — хорошие знакомства начинаются именно так! 😊",
+            "description": null,
+            "hyperLinks": [],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "559f5758-ba64-4dfd-82c4-fdc8e706b48e",
+        "templateId": "2c325eba-d3fb-4be7-ac76-bc58411a6756",
+        "questType": "common",
+        "title": "Попадите в цель с VK Store",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvZWNiY2FmY2EtZTFkNi00Yjk0LWIwZDQtYjE3MzNhZmQxY2RmIiwiZSI6MTc4MzcxOTA2Nn0.QjPKYjjO_ADgxcRqu6m7uQnBEeYtMyYGtVz4cK9j-K0",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.983572,
+        "longitude": 30.193967,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 75,
+        "hyperLinks": [
+          {
+            "word": "VK Store",
+            "link": "https://taplink.cc/vkstore.ru"
+          }
+        ],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "f993ead1-2008-406a-9486-a4b862e390c4",
+            "text": "Откройте для себя VK Store и вдохновитесь фирменным мерчем и фестивальными новинками, а затем испытайте себя в баскетбольном челлендже. За точные броски вас ждут монеты!\r\n\r\nЧто нужно сделать:\r\n\r\n1. Подойдите к интерактивной зоне VK Storе\r\n2. Подпишитесь на любую социальную сеть VK Store\r\n3. Примите участие в баскетбольном челлендже и проверьте свою меткость — у вас будет несколько попыток\r\n4. Финальный шаг — покажите экран смартфона с подпиской промоутеру в розовой футболке и отсканируйте QR-код.\r\nГотово, задание выполнено!",
+            "description": null,
+            "hyperLinks": [
+              {
+                "word": "VK Store",
+                "link": "https://taplink.cc/vkstore.ru"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "Скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      },
+      {
+        "id": "3ef67bc6-8f63-4b01-8f40-9ee2ad0eb1eb",
+        "templateId": "39a3f9d8-3a63-476d-97a4-1d1cccbbfc5a",
+        "questType": "common",
+        "title": "Безопасность с VK ID",
+        "shortDescription": null,
+        "fullDescription": null,
+        "coverUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXRhc2stY292ZXIvZTU2YzU4MDYtM2Y2NC00M2M0LWJlMGItMjcxZDA0ZTZjOTVjIiwiZSI6MTc4MzcxOTA2Nn0.1VGK9QMPs5kfu7TJIdhG5RvgBgwrgujDaDXSsxPws1k",
+        "mode": "offline",
+        "isPartner": false,
+        "isRuStorePromo": false,
+        "format": "qr",
+        "latitude": 59.982953,
+        "longitude": 30.200431,
+        "model3d": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "21:00",
+        "opensAt": "2026-07-04T11:00:00.000Z",
+        "closesAt": "2026-07-05T21:00:00.000Z",
+        "isStarter": false,
+        "rewardCoins": 75,
+        "hyperLinks": [
+          {
+            "word": "\"Безопасность\"",
+            "link": "http://id.vk.com/account?open_page=security&flow_service=vkfest"
+          }
+        ],
+        "attemptLimit": null,
+        "sortOrder": 1,
+        "questions": [
+          {
+            "id": "42c3f185-5cae-4970-98a4-6fcb8da00fdd",
+            "text": "VK ID — это единый аккаунт для входа в сервисы VK и на тысячи других сайтов. С ним больше не нужно заполнять формы регистрации и беспокоиться о защите данных. А если настроить вход по распознаванию лица или отпечатку пальца то о паролях и вовсе можно забыть. Что нужно сделать:\r\n\r\n1. Откройте ваш личный кабинет VK ID.\r\n2. В разделе \"Безопасность\"  в блоке \"Способы входа\" подключите один из удобных способов входа — по скану лица или отпечатку пальца. \r\n\r\nГотово! Теперь безопасность на высшем уровне! Покажите экран смартфона промоутеру в розовой футболке, отсканируйте QR-код, заберите монетки и тратьте их на мерч.",
+            "description": null,
+            "hyperLinks": [
+              {
+                "word": "\"Безопасность\"",
+                "link": "http://id.vk.com/account?open_page=security&flow_service=vkfest"
+              }
+            ],
+            "mediaKind": null,
+            "mediaUrl": null,
+            "answerType": "qr",
+            "questionType": "qr",
+            "correctAnswers": [
+              "скан"
+            ],
+            "hintAfterAttempt": 1,
+            "hintText": null,
+            "sortOrder": 0,
+            "options": []
+          }
+        ],
+        "unlockRules": []
+      }
+    ],
+    "prizes": [
+      {
+        "id": "eb5416f1-97fb-4367-8e37-8fba887cfd10",
+        "name": "Брелок VK ID",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlL2ZjYTMwMWIyLTg0ZDYtNGU3MC04NzZkLWY2YmQyNDQ0NDA5YyIsImUiOjE3ODM3MTkwNjZ9.yt_ITSrIVSQB6LHocKDlKR5VcRypeTLLFCcd3ko0lEg",
+        "description": null,
+        "costCoins": 1235,
+        "stock": 9,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7565,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "b5068ac9-ce37-40cd-8e8a-458be8676d34",
+        "name": "Настольная карточная игра МЕМЫ 3: Котики и прочие нелюди",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzEyYWJkYWMwLWMwNzEtNDQ1Yy1hMzg0LTdjZDUzM2QzNzBjMiIsImUiOjE3ODM3MTkwNjZ9.7mDN-JQ_qmQV9928kjJoBb2o-sQnZbWrs2DEv1dClNI",
+        "description": null,
+        "costCoins": 710,
+        "stock": 980,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "24ba475c-7c8b-4240-8d02-2b79590e7144",
+        "name": "Стикеры VK Store",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzMxNWI1MmU0LTMyMGUtNDBkYS1hNWJkLTQ4MWZjYmM1YTE1YSIsImUiOjE3ODM3MTkwNjZ9.q4jPQ-4RdPcCShCVB05Jy4ESdK3WynhsVy37dmmAzjQ",
+        "description": null,
+        "costCoins": 480,
+        "stock": 140,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "4d7c8ce8-cf43-4df2-8bbd-dd7bb3cf5aed",
+        "name": "Объемные стикеры VK Fest",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzg4MWE2ZDljLWYyMDUtNDlkOS1iMDFiLTZiMjkzNWFkOTI1MiIsImUiOjE3ODM3MTkwNjZ9.-wa-DiuN8avlsTsi7nz1SNj4OktCZ_7gvqKaUQBE-Hc",
+        "description": null,
+        "costCoins": 805,
+        "stock": 375,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "820829db-7527-4790-893c-71778f3d9bac",
+        "name": "Стикеры VK ID",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzkxOWM0YzczLWI2OTQtNGQxYi04MTkwLTRiY2Q2Y2Y1NDljMCIsImUiOjE3ODM3MTkwNjZ9.nwE0rKyi5kjc7fe1Ay2Lc68kyZru-TeUrCNB2Wm7Xtk",
+        "description": null,
+        "costCoins": 855,
+        "stock": 40,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "65b3b0df-6d79-4632-8a92-f45e543c2288",
+        "name": "Набор переводных татуировок VK Fest",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzg2ZmQ4NzI0LTJhZTgtNGY3NC05OTViLWU2MmMxOTEwYzJkMCIsImUiOjE3ODM3MTkwNjZ9.7pwzLfqbLEAvWlRVtoLfmVQomgOl_UQwfX0MQ3qja_Y",
+        "description": null,
+        "costCoins": 1045,
+        "stock": 363,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "3ab259e1-2ae0-4c6f-a832-23349206f220",
+        "name": "Брелок VK Fest",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzE4ZDY1MjZkLTc3ZmUtNDA1Yi1iMjg0LTM2ZGM3MmNjODIzZCIsImUiOjE3ODM3MTkwNjZ9.VJIuK_oF_3nzOCbKlJAW1iQxCHTZEGp3qOsGSBQ2ROU",
+        "description": null,
+        "costCoins": 1140,
+        "stock": 363,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "2f7ad322-1e20-4862-b254-7ba2cafa9532",
+        "name": "Обвес VK Fest",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzE2ZjkyYzg1LTBjN2UtNDU1My1iOWFhLWNmNzEzNDE0M2VkNCIsImUiOjE3ODM3MTkwNjZ9.UZk7fnjUS8k8EedkuBLKAUZNaacwITGhoFEv5iRzUWc",
+        "description": null,
+        "costCoins": 1155,
+        "stock": 238,
+        "availableFrom": null,
+        "availableUntil": null,
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "e4af9848-22e8-4404-9acb-3c7aaea58f2c",
+        "name": "Шнур для телефона VK Fest",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzIzMDlkMmRkLThjMTItNDUzOC1iMDQwLWFhYjk2MjIzOWJjZSIsImUiOjE3ODM3MTkwNjZ9.2lPmyAJJotMOszoLa-J0d0M54OE83YEGPQXtfZBmhZk",
+        "description": null,
+        "costCoins": 1170,
+        "stock": 238,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "da207ffe-e43f-4294-857a-52852efc1298",
+        "name": "Авоська VK Fest",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzFlYzcxMGY1LWIwYWEtNGZkNi05OTdjLWI1MWU3MTMxNTY1MiIsImUiOjE3ODM3MTkwNjZ9.zZ1UOJgdjAFZ8vy5MKJJ5jk5YNp6WtM_VebR4vd-lF8",
+        "description": null,
+        "costCoins": 1540,
+        "stock": 113,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "07375bf8-4a2c-40a1-8892-9709431fdb39",
+        "name": "Панама VK Fest",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlL2FhYzNhN2NhLTNiMjYtNDAyOC1hYzg2LTczNDY5NTgxNGYzNyIsImUiOjE3ODM3MTkwNjZ9.JJN6ff2Tbdk1kFMYAOu9ibZGtGEFxH3x_79yHGyE7Qk",
+        "description": null,
+        "costCoins": 1580,
+        "stock": 113,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "be948a4b-d3b6-4fff-8c8a-897c9cb466ad",
+        "name": "Футболка белая c собачкой VK Fest",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzU5YjVlNGFiLWY0ZGYtNDUzMS05ZWZjLTMxYWY0NmI4YjQ0YyIsImUiOjE3ODM3MTkwNjZ9.b1MkRmPqmXiyO16iK6Gur_msGsfdA2Gdz5SDpvtNRT8",
+        "description": null,
+        "costCoins": 1610,
+        "stock": 113,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "f80547b2-7a7b-484c-a0e5-39ce29d645a6",
+        "name": "Футболка черная Оne Tap VK ID",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzUyMmRjM2RmLTJjNTYtNGNhYS04ZDhhLTA5MGU3MTY3ZDJiMiIsImUiOjE3ODM3MTkwNjZ9.WSOrKrs0oxK2VPgJarXR--0PwcEgdGC9bAFYjYp7lOY",
+        "description": null,
+        "costCoins": 1625,
+        "stock": 9,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "e220624f-ca8b-4947-bf6b-9c6b52ec6044",
+        "name": "Футболка черная с паролями VK ID",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzQxN2RkYjdkLTBiNTctNDc2Ny05MDgzLWUzOTMwY2NlNmM5NSIsImUiOjE3ODM3MTkwNjZ9.W-vEx0dxMwyTs4vCEaM4eCdD5Sd4Pv62fzen7e4TGPQ",
+        "description": null,
+        "costCoins": 1625,
+        "stock": 8,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "a51cad79-dc76-479b-ba58-1fcb4c88dc0e",
+        "name": "Термос VK",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzJhZWEyNDEwLTg2ZGMtNGRmNi1iZTU5LTQ0NDBiYWQyYTM1YSIsImUiOjE3ODM3MTkwNjZ9.fnih_m3n9Z7FUSRn7l0Y0YTIngMHfYfMeCJOm1QDOE8",
+        "description": null,
+        "costCoins": 1640,
+        "stock": 35,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "c8ceae41-ba83-4e7b-b329-001d16cedc4c",
+        "name": "Шоппер VK",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzgxMmEzMWFhLWYyNTEtNGIxYS05Y2Y5LTY2MjU3MTQ4YjM3MiIsImUiOjE3ODM3MTkwNjZ9.dacMGk0gt5UpkBPAQ6FAJ53y9pUoem2IArkqCw_3rS0",
+        "description": null,
+        "costCoins": 1640,
+        "stock": 25,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "cb44fe33-16bd-4c03-8393-607a8bee9cf3",
+        "name": "Сумка Я.Дзен",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzQwZWY0MWY2LWU0ZWMtNGIzMS05OGIxLTg1MjdkYTY4ZjZmOCIsImUiOjE3ODM3MTkwNjZ9.e8PX5W7IrQGxWMolH-Di6wdpmelk_dN_nxLfoyeMBtI",
+        "description": null,
+        "costCoins": 1930,
+        "stock": 25,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "118a1a10-5d58-4be4-af55-38603b32833f",
+        "name": "Повербанк VK ID",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzM2NmY5NDYxLTk2MzQtNGIyYy04MWYwLTljOGExZDRiZjg2OCIsImUiOjE3ODM3MTkwNjZ9.m0N8DYUlTZ6nhyCuzvbHObCqTg27MQ99rw1uvqkubKQ",
+        "description": null,
+        "costCoins": 1930,
+        "stock": 15,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      },
+      {
+        "id": "cf131025-71ab-4fff-9d2c-bf592f984ec6",
+        "name": "Худи VK",
+        "imageUrl": "/api/media-proxy?t=eyJ1IjoiaHR0cHM6Ly9idWNrZXQtdmtmZXN0LnN0b3JhZ2UueWFuZGV4Y2xvdWQubmV0L3F1ZXN0LXByaXplLWltYWdlLzBjNTI3YzY4LWM1NTItNDU3Yy05MmZjLTU5MDhmODZhODMxNCIsImUiOjE3ODM3MTkwNjZ9.aBzW0SUjNo5EILMzB6_hzx9od2b3gQaSWujC6HOG0Bg",
+        "description": null,
+        "costCoins": 1945,
+        "stock": 20,
+        "availableFrom": "2026-07-04T00:00:00.000Z",
+        "availableUntil": "2026-07-05T00:00:00.000Z",
+        "pointWorkStartTime": "11:00",
+        "pointWorkEndTime": "22:00",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "status": "active",
+        "stockStatus": "none",
+        "sortOrder": 1
+      }
+    ]
+  }
+}
