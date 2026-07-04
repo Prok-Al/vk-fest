@@ -3,16 +3,8 @@
 
   var API_BASE = "https://api-vkfest.vvdev.ru";
 
-  // Адрес CORS-прокси на Cloudflare Workers (см. worker/README.md).
-  // API возвращает 500 для любого чужого Origin и не шлёт CORS-заголовки,
-  // поэтому напрямую из браузера (в т.ч. с GitHub Pages) запросы не проходят.
-  // Впишите сюда URL вашего воркера, например:
-  //   "https://vkfest-quest-proxy.ваш-субдомен.workers.dev"
-  // Пустая строка — обращаться к API напрямую (сработает только локально
-  // при отключённой проверке CORS, но не на GitHub Pages).
   var WORKER_BASE = "https://vkfest-quest-proxy.prokopjevaleks.workers.dev";
 
-  // Базовый источник для запросов: воркер (если задан) или сам API.
   var REQUEST_BASE = WORKER_BASE || API_BASE;
 
   function api(path) {
@@ -22,14 +14,12 @@
   var CITIES_URL = "/api/cities/";
   var QUEST_URL = "/api/quests/active?cityId=";
 
-  // Абсолютный URL для медиа: если путь относительный — подставляем базовый домен
   function absUrl(url) {
     if (!url) return "";
     if (/^https?:\/\//i.test(url)) return url;
     return API_BASE + (url.charAt(0) === "/" ? "" : "/") + url;
   }
 
-  // Московское время в ISO с оффсетом +03:00
   function moscowIso() {
     var now = new Date();
     // сдвигаем к UTC+3 и форматируем вручную
@@ -72,7 +62,6 @@
       .replace(/>/g, "&gt;");
   }
 
-  // ---- Рендер карточки задания ----
   function renderCard(task) {
     var card = el("button", "card" + (task.isStarter ? " starter" : ""));
     card.type = "button";
@@ -112,7 +101,6 @@
     container.appendChild(grid);
   }
 
-  // ---- Модалка ----
   var backdrop = document.getElementById("modalBackdrop");
   var modalTitle = document.getElementById("modalTitle");
   var modalBody = document.getElementById("modalBody");
@@ -216,7 +204,6 @@
     wrap.appendChild(block);
   }
 
-  // ---- Рендер квеста ----
   function renderQuest(quest, content) {
     var tasks = quest.tasks || [];
 
@@ -247,7 +234,6 @@
     }
   }
 
-  // ---- Загрузка квеста по выбранному городу ----
   function loadQuest(cityId) {
     var content = document.getElementById("content");
     var subtitle = document.getElementById("questSubtitle");
@@ -278,7 +264,6 @@
       });
   }
 
-  // ---- Загрузка списка городов ----
   function init() {
     var select = document.getElementById("citySelect");
     var content = document.getElementById("content");
