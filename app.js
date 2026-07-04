@@ -2,7 +2,25 @@
   "use strict";
 
   var API_BASE = "https://api-vkfest.vvdev.ru";
-  var DATA_URL = "quests-active.json";
+
+  // Адрес CORS-прокси на Cloudflare Workers (см. worker/README.md).
+  // API возвращает 500 для любого чужого Origin и не шлёт CORS-заголовки,
+  // поэтому напрямую из браузера (в т.ч. с GitHub Pages) запросы не проходят.
+  // Впишите сюда URL вашего воркера, например:
+  //   "https://vkfest-quest-proxy.ваш-субдомен.workers.dev"
+  // Пустая строка — обращаться к API напрямую (сработает только локально
+  // при отключённой проверке CORS, но не на GitHub Pages).
+  var WORKER_BASE = "https://vkfest-quest-proxy.prokopjevaleks.workers.dev";
+
+  // Базовый источник для запросов: воркер (если задан) или сам API.
+  var REQUEST_BASE = WORKER_BASE || API_BASE;
+
+  function api(path) {
+    return REQUEST_BASE + path;
+  }
+
+  var CITIES_URL = "/api/cities/";
+  var QUEST_URL = "/api/quests/active?cityId=";
 
   // Абсолютный URL для медиа: если путь относительный — подставляем базовый домен
   function absUrl(url) {
@@ -179,20 +197,17 @@
     canvasWrap.appendChild(canvas);
     block.appendChild(canvasWrap);
 
-    var payloadEl = el("div", "qr-payload");
-    block.appendChild(payloadEl);
-
     var btn = el("button", "btn", "Обновить");
     btn.type = "button";
     block.appendChild(btn);
 
     function refresh() {
       var payload = JSON.stringify({ id: task.id, createdAt: moscowIso() });
-      payloadEl.textContent = payload;
       try {
         QRCode.render(canvas, payload, { size: 260, margin: 4, ecLevel: "M" });
       } catch (err) {
-        payloadEl.textContent = "Ошибка генерации QR: " + err.message;
+        var errEl = el("div", "qr-payload", "Ошибка генерации QR: " + err.message);
+        block.insertBefore(errEl, btn);
       }
     }
 
@@ -201,47 +216,102 @@
     wrap.appendChild(block);
   }
 
-  // ---- Загрузка данных ----
-  function init() {
+  // ---- Рендер квеста ----
+  function renderQuest(quest, content) {
+    var tasks = quest.tasks || [];
+
+    var subtitle = document.getElementById("questSubtitle");
+    var parts = [];
+    if (quest.name) parts.push(quest.name);
+    if (quest.cityName) parts.push(quest.cityName);
+    subtitle.textContent = parts.join(" · ");
+
+    content.innerHTML = "";
+
+    var starter = tasks.filter(function (t) {
+      return t.isStarter;
+    });
+    var common = tasks.filter(function (t) {
+      return !t.isStarter && t.questType === "common";
+    });
+    var child = tasks.filter(function (t) {
+      return !t.isStarter && t.questType === "child";
+    });
+
+    renderSection(content, "Стартовое задание", "", starter);
+    renderSection(content, "Квест", "Задания основного квеста", common);
+    renderSection(content, "Детский квест", "Задания детского квеста", child);
+
+    if (!tasks.length) {
+      content.appendChild(el("p", "error", "Заданий пока нет."));
+    }
+  }
+
+  // ---- Загрузка квеста по выбранному городу ----
+  function loadQuest(cityId) {
     var content = document.getElementById("content");
-    fetch(DATA_URL, { cache: "no-store" })
+    var subtitle = document.getElementById("questSubtitle");
+    subtitle.textContent = "";
+    content.innerHTML = '<p class="loading">Загрузка квеста…</p>';
+
+    fetch(api(QUEST_URL + encodeURIComponent(cityId)), { cache: "no-store" })
+      .then(function (r) {
+        return r.json().then(function (json) {
+          return { ok: r.ok, status: r.status, json: json };
+        });
+      })
+      .then(function (res) {
+        if (res.status === 404) {
+          content.innerHTML =
+            '<p class="error">Квест в этом городе сейчас недоступен.</p>';
+          return;
+        }
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        var quest = res.json.data || res.json;
+        renderQuest(quest, content);
+      })
+      .catch(function (err) {
+        content.innerHTML =
+          '<p class="error">Не удалось загрузить квест: ' +
+          escapeHtml(err.message) +
+          "</p>";
+      });
+  }
+
+  // ---- Загрузка списка городов ----
+  function init() {
+    var select = document.getElementById("citySelect");
+    var content = document.getElementById("content");
+
+    fetch(api(CITIES_URL), { cache: "no-store" })
       .then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
       })
       .then(function (json) {
-        var quest = json.data || json;
-        var tasks = quest.tasks || [];
-
-        var subtitle = document.getElementById("questSubtitle");
-        var parts = [];
-        if (quest.name) parts.push(quest.name);
-        if (quest.cityName) parts.push(quest.cityName);
-        subtitle.textContent = parts.join(" · ");
-
-        content.innerHTML = "";
-
-        var starter = tasks.filter(function (t) {
-          return t.isStarter;
-        });
-        var common = tasks.filter(function (t) {
-          return !t.isStarter && t.questType === "common";
-        });
-        var child = tasks.filter(function (t) {
-          return !t.isStarter && t.questType === "child";
+        var cities = json.list || [];
+        select.innerHTML =
+          '<option value="" disabled selected>Выберите город</option>';
+        cities.forEach(function (c) {
+          var opt = document.createElement("option");
+          opt.value = c.id;
+          opt.textContent = c.name;
+          select.appendChild(opt);
         });
 
-        renderSection(content, "Стартовое задание", "", starter);
-        renderSection(content, "Квест", "Задания основного квеста", common);
-        renderSection(content, "Детский квест", "Задания детского квеста", child);
+        select.addEventListener("change", function () {
+          if (select.value) loadQuest(select.value);
+        });
 
-        if (!tasks.length) {
-          content.appendChild(el("p", "error", "Заданий пока нет."));
-        }
+        content.innerHTML =
+          '<p class="loading">Выберите город, чтобы увидеть квест.</p>';
       })
       .catch(function (err) {
+        select.innerHTML = '<option value="" disabled selected>Ошибка загрузки</option>';
         content.innerHTML =
-          '<p class="error">Не удалось загрузить данные: ' + escapeHtml(err.message) + "</p>";
+          '<p class="error">Не удалось загрузить список городов: ' +
+          escapeHtml(err.message) +
+          "</p>";
       });
   }
 

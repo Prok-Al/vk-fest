@@ -65,6 +65,38 @@ body {
   margin: 6px 0 0;
 }
 
+.city-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 18px;
+  max-width: 340px;
+}
+
+.city-label {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.city-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23a0a6b5' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") no-repeat right 14px center;
+  color: var(--text);
+  border: 1px solid var(--surface-2);
+  border-radius: 12px;
+  padding: 12px 40px 12px 14px;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.city-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
 .content {
   max-width: 1200px;
   margin: 0 auto;
